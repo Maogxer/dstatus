@@ -39,6 +39,6 @@ VOLUME ["/app/data", "/app/logs"]
 
 USER node
 
-EXPOSE 5555
+EXPOSE 5555/tcp
 
 CMD ["node", "nekonekostatus.js"]
